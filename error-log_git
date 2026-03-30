@@ -1,0 +1,4 @@
+1)if you got error to make staged the file
+Run this (rm ~/.gitconfig) command and then remove configuration of git and add it again
+2)first make clone to repo to your main folder then create file which you want push on github that easier way to make push-pull thing run
+3)
