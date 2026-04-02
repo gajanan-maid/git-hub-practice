@@ -14,6 +14,8 @@ git basic command
 13) git reset --hard commit id (to reset to specific commit)
 14) git restore file name 
 15) git stash (to save changes temporarily)
+16) git commit -am "message" (to commit modified file direct changes)
+17)
 
 git configuration command
 1) git config --global --list
