@@ -1,0 +1,25 @@
+git basic command
+1) git init (to creat  repo)
+2) git clone URL (to clone remote to local)
+3) git status (to check file status)
+4) git keygen rsa (to generate)
+5) git add file name (to add file to tracked stage)
+6) git commit -m "message" (to commit changes)
+7) git push origin branch name (to push changes to remote)  
+8) git pull origin branch name (to pull changes from remote)    
+9) git branch (to check branch)
+10) git checkout branch name (to switch branch)
+11) git merge branch name (to merge branch)
+12) git log (to check commit history)
+13) git reset --hard commit id (to reset to specific commit)
+14) git restore file name 
+15) git stash (to save changes temporarily)
+
+git configuration command
+1) git config --global --list
+2) git config --global user.name "your name"
+3) git config --global user.email "your email"
+4) git config --global --edit (global cofig file open in text editor)
+5) git config --global --unset user.name
+6) git config --global --unset user.email
+7) git config --global --unset-all user.name (to unset all user name)
