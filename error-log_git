@@ -2,3 +2,6 @@
 Run this (rm ~/.gitconfig) command and then remove configuration of git and add it again
 2)first make clone to repo to your main folder then create file which you want push on github that easier way to make push-pull thing run
 3)clear command not work in local terminal and many command not properly work in that so easy way to use git is vs code.
+4) In VS studio there is (ls -a) is not working instead of that use (la -force) to check files in directory
+5) if you are connecting local to remote first generate ssh key or if you have ssh key go to that folder in terminal and then add key to github and then try to connect remote repo.
+6) while connecting to remote repo must be go to pwd of local then make connection

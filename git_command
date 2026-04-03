@@ -25,3 +25,9 @@ git configuration command
 5) git config --global --unset user.name
 6) git config --global --unset user.email
 7) git config --global --unset-all user.name (to unset all user name)
+
+git connection local to remote
+1) git init
+2) git remote add origin URL (to connect local to remote repo)
+3) la -force (to check all files vs studio)
+4) 
