@@ -4,4 +4,7 @@ Run this (rm ~/.gitconfig) command and then remove configuration of git and add 
 3)clear command not work in local terminal and many command not properly work in that so easy way to use git is vs code.
 4) In VS studio there is (ls -a) is not working instead of that use (la -force) to check files in directory
 5) if you are connecting local to remote first generate ssh key or if you have ssh key go to that folder in terminal and then add key to github and then try to connect remote repo.
-6) while connecting to remote repo must be go to pwd of local then make connection
+6) while connecting to remote repo must be go to pwd of local then make connection.
+7) Always make sure file must be commited on git and and then push to github
+8) if you got error to push on github first check your branch name and then check your remote repo name and then try to push again
+9) 
