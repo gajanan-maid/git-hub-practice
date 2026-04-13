@@ -2,7 +2,7 @@ git basic command
 1) git init (to creat  repo)
 2) git clone http-URL (to clone remote to local)
 3) git status (to check file status)
-4) git keygen rsa (to generate)
+4) ssh-keygen -t ed25519 -C "ec2-github-key"
 5) git add file name (to add file to tracked stage)
 6) git commit -m "message" (to commit changes)
 7) git push origin branch name (to push changes to remote)  
@@ -15,7 +15,7 @@ git basic command
 14) git restore file name 
 15) git stash (to save changes temporarily)
 16) git commit -am "message" (to commit modified file direct changes)
-17)
+17) 
 
 git configuration command
 1) git config --global --list
@@ -37,6 +37,10 @@ git connection local to remote
 8) ssh-keygen -t rsa -c "maid_id"
 9) start-service ssh-agent
 10) ssh -t git@github.com (to access ssh key)
+
+add key
+(eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa)
 
 Branch and merge
 1) git branch (to check branch)
@@ -75,3 +79,12 @@ stash
 18) git stash push -m "message" -u (to save stashed changes with message and stash untracked files)
 19) git stash push -m "message" -a (to save stashed changes with message and stash all changes including untracked and ignored files)
 20) git stash push -m "message" -q (to save stashed changes with message and suppress output when stashing)
+
+
+to add key pair on new vm
+# Run this from your LOCAL machine
+scp ~/.ssh/id_ed25519 ec2-user@your-ec2-ip:~/.ssh/id_ed25519
+chmod 600 ~/.ssh/id_ed25519
+ssh -T git@github.com
+bash setup-vm.sh 65.xx.xx.xx
+
