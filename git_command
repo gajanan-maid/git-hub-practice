@@ -15,7 +15,7 @@ git basic command
 14) git restore file name 
 15) git stash (to save changes temporarily)
 16) git commit -am "message" (to commit modified file direct changes)
-17) 
+17) git remote remove origin
 
 git configuration command
 1) git config --global --list
