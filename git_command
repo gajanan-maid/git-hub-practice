@@ -36,7 +36,7 @@ git connection local to remote
 7) git pull origin master (to pull remote to local)
 8) ssh-keygen -t rsa -c "maid_id"
 9) start-service ssh-agent
-10) ssh -t git@github.com (to access ssh key)
+10) ssh -T git@github.com (to access ssh key)
 
 add key
 (eval "$(ssh-agent -s)"
