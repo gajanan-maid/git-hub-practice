@@ -1,1 +1,3 @@
 Steps to follow connect git-github
+1) git clone (https URL)
+2) git remote remove -v 
