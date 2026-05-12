@@ -1,3 +1,20 @@
-Steps to follow connect git-github
-1) git clone (https URL)
-2) git remote remove -v 
+steps to follow connection of git and GitHub
+Create repo
+
+Clone repo
+git clone https URL
+git remote remove origin
+
+Make git configuration
+git config --global user.name
+git config --global user.email
+git config --global --list
+
+generate ssh key
+ssh-keygen -t ed25519/rsa -C "message"
+Add key to GitHub 
+git remote add origin ssh URl
+git remote -v
+ssh -T git@github.com
+
+Push and pull file by check branch..
